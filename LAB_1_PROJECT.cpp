@@ -9,20 +9,16 @@ using namespace std;
 
 int main() {
 
-    double num1, num2, sum, product;
+   double num1 = 5.50;
+    double num2 = 4.50;
+    double product = num1 * num2;
 
-    cout << "Enter first number: 5 ";
-    cin >> num1;
-    
-    cout << "Enter second number: 4 ";
-    cin >> num2;    
-
-    product = num1 * num2;
 
     cout << "The Product of" << num1 << " and " << num2 << " is " << product << endl;
 
     return 0;
 
 }
+
 
 
