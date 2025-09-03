@@ -15,13 +15,13 @@ int main() {
 
     movieTitle = "(Avengers: Endgame)";
 
-    cout << "The main charscters in " << movieTitle << " are:" << endl;
-    cout << "Main Character #1: Iorn Man" << endl;
-    cout << "Main Character #2: Captain America" << endl;
-    cout << "Main Character #3: Thor" << endl;
-    cout << "Main Character #4: Hulk" << endl;
-    cout << "Main Character #5: Captain Marvel" << endl;
-    cout << "Main Character #5: Hawkeye" << endl;
+    std::cout << "The main charscters in " << movieTitle << " are:" << std::endl;
+    std::cout << "Main Character #1: Iorn Man" << std::endl;
+    std::cout << "Main Character #2: Captain America" << std::endl;
+    std::cout << "Main Character #3: Thor" << std::endl;
+    std::cout << "Main Character #4: Hulk" << std::endl;
+    std::cout << "Main Character #5: Captain Marvel" << std::endl;
+    std::cout << "Main Character #5: Hawkeye" << std::endl;
 
     return 0;
 
