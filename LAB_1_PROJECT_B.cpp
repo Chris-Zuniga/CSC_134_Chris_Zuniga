@@ -14,7 +14,7 @@ double numerator = 10.0;
 double denominator = 0.0;
 double result;
 
-result = numerator / denominator;
+result = numerator / 0;
 
 std::cout << "The result of " << numerator << " divided by " << denominator << " is " << result << std::endl;
 
