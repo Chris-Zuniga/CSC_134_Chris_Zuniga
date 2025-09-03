@@ -14,7 +14,7 @@ int main() {
     double product = num1 * num2;
 
 
-    cout << "The Product of" << num1 << " and " << num2 << " is " << product << endl;
+    std::cout << "The Product of" << num1 << " and " << num2 << " is " << product << std::endl;
 
     return 0;
 
