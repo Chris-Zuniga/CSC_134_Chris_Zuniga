@@ -17,7 +17,7 @@ double result;
 
 result = sqrt(numberator);
 
-cout << "The square root of " << numberator << " is " << result << endl;
+std::cout << "The square root of " << numberator << " is " << result << std::endl;
 
 
 return 0;
