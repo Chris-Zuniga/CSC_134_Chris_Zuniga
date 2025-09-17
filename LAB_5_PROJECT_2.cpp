@@ -15,6 +15,6 @@ while (number < 10){
 
     std::cout << "This will go on forever, to stop you must hit control + c at the same time." << std::endl;
 }
-
+// Due to not being the code "number++" the number will remain at 0 and will always repeat the same text
 
 }
