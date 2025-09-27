@@ -15,14 +15,18 @@ using namespace std;
 
 int main()
 {
+
+    // Variable Declaration
     int minNumber = 0;
     int maxNumber = 100;
 
+    // Output
     std::cout << "Number \t\t|  Number Square\n";
     std::cout << "------------------------------\n";
 
     for (int i = minNumber; i <= maxNumber; i++)
     {
+        // Output each number and its square
         std::cout << i << "\t\t|   " << (i * i) << std::endl;
 
     }

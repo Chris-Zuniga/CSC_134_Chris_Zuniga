@@ -13,15 +13,20 @@ using namespace std;
 int main()
 {
 
+    //Variable Declaration
     int NumofRolls;
 
+    //User Input
     std::cout << "Enter the number of times you would like to roll a single die: ";
     std::cin >> NumofRolls;
 
+    //Output
     std::cout << "Rolling the dice " << NumofRolls << " times:\n";
     
+    //Loop to simulate rolling a die
      for (int roll = 1; roll <= NumofRolls; roll++)
     {
+        
         int DieRoll = rand() % 6 + 1; // Random number between 1 and 6
         std::cout << "Dice " << roll << ": " << DieRoll << std::endl;
     }

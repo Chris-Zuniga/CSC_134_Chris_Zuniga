@@ -13,16 +13,22 @@ using namespace std;
 int main()
 {
 
+    // Initialize variables
     int sumOp = 0;
     int adder = 10;
 
+    // Loop 50 times
     for (int num = 0; num < 50; num++)
     {
+        // Sum the loop counter (num) and adder
         sumOp = num + adder;
+
+        // Print the current sumOp value
         std::cout << "Iteration " << num << ": Sum = " << sumOp << std::endl;
 
     }
 
+    // Final output after the loop
     std::cout << "Final sum after 50 iterations: " << sumOp << std::endl;
 
     return 0;

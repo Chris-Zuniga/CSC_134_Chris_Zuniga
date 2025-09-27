@@ -11,23 +11,31 @@ using namespace std;
 
 int main()
 {
+    //Variable Declaration
     int userInput;
 
+    //User Input
     std::cout << "Enter an number to display its multiplacation table: ";
     std::cin >> userInput;
 
+
+    //Output
     std::cout << "Multiplication table for " << userInput << ":\n";
     std::cout << "-------------------------\n";
     std::cout << "Multiplier \t\t | Result\n";
     std::cout << "-------------------------\n";
 
 
-
+    //Loop to display multiplication table from 0 to 12
     for (int num = 0; num <= 12; num++)
     {
+        // Calculate the result
         int Result = userInput * num;
+
+        // Displaying the result
         std::cout << num << "\t\t\t | " << Result << std::endl;
     }
+    
     std::cout << "-------------------------\n";
 
     return 0;
