@@ -4,12 +4,7 @@
 // Assignment :Write a program that prints a chessboard pattern of asterisks and spaces using nested for-loops. 
 // For white-spaces use a space and for black-spaces use and asterisk. 
 //You should prompt the user for the size of the chess board with a single integer value. 
-// In the example below the value entered was 7. 
-// Your pattern will look similar to this:
-// *  *  *  *
-//   *  *  *
-// *  *  *  *
-//   *  *  *
+
 
 #include <iostream>
 using namespace std;
