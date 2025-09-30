@@ -4,7 +4,6 @@
 // Assignment : Create a program that prints a multiplication table for numbers 1 to 10 using nested for loops. 
 
 #include <iostream>
-#include <iomanip> // For std::setw
 using namespace std;
 
 int main ()
