@@ -13,7 +13,7 @@ int main()
     int number;
     int sumTotal = 0;
 
-    inFile.open("/Users/chriszuniga/GITHUB-CSC-134/CSC_134_Chris_Zuniga-1/LAB 8 PROJECTS/numbers.txt"); // Open the file
+    inFile.open("/Users/chriszuniga/GITHUB-CSC-134/CSC_134_Chris_Zuniga/LAB 8 PROJECTS/numbers.txt"); // Open the file
 
     // Read and sum the numbers from the file
     while(inFile >> number)
