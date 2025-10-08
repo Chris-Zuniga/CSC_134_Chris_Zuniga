@@ -10,20 +10,22 @@ using namespace std;
 
 int main ()
 {
-    std::ofstream outFile("Lab2.txt"); // Creating and opening the file
+        ofstream outputFile; // Creating an output file stream object
+
+     outputFile.open("Lab2.txt"); // Creating and opening the file
 
    
 
     // Writing the specified values to the file with formatting
-    outFile << "********************************\n";
-    outFile << "\t\tShopping Cart\n";
-    outFile << "********************************\n";
-    outFile << "Product Code|\tQty|\tPrice\n";
-    outFile << "780|\t\t\t8|\t\t$1.50\n";
-    outFile << "\t\t\tTotal: $12.00\n";
+    outputFile << "********************************\n";
+    outputFile << "\t\tShopping Cart\n";
+    outputFile << "********************************\n";
+    outputFile << "Product Code|\tQty|\tPrice\n";
+    outputFile << "780|\t\t\t8|\t\t$1.50\n";
+    outputFile << "\t\t\tTotal: $12.00\n";
 
     // Closing the file
-    outFile.close();
+    outputFile.close();
 
     std::cout << "File Lab2.txt created and data written successfully " << std::endl;
 

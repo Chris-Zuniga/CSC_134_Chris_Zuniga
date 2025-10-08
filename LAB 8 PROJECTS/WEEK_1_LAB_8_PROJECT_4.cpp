@@ -15,8 +15,8 @@ int main()
     std::cout << "Enter an integer: ";
     std::cin >> UserInput;
 
-    //Create and open a text file
-    std::ofstream outputFile("lab4.txt");
+    ofstream outputFile; // Creating an output file stream object
+    outputFile.open("lab4.txt");
 
    
     

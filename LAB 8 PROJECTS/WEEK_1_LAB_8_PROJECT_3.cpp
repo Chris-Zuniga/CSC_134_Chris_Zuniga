@@ -10,21 +10,23 @@ using namespace std;
 
 int main()
 {
-    ofstream outFile("Lab3.txt"); // Opening the input file
+    ofstream outputFile; // Creating an output file stream object
+
+     outputFile.open("Lab3.txt"); // Opening the input file
 
     
 
        // Writing the specified values to the file
-    outFile << "Bourne Identity"; 
-    outFile << "Star Wars Episode IV";
-    outFile << "The Hunger Games";
-    outFile << "Dead Pool";
-    outFile << "X-Men First Class";
-    outFile << "Star Wars Episode V";
-    outFile << "Get Out";
+    outputFile << "Bourne Identity"; 
+    outputFile << "Star Wars Episode IV";
+    outputFile << "The Hunger Games";
+    outputFile << "Dead Pool";
+    outputFile << "X-Men First Class";
+    outputFile << "Star Wars Episode V";
+    outputFile << "Get Out";
     
     // Closing the file
-    outFile.close();
+    outputFile.close();
 
     std::cout << "File Lab3.txt created and data written successfully " << std::endl;
 

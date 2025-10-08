@@ -8,20 +8,21 @@ using namespace std;
 
 int main ()
 {
-    std::ofstream outFile("Lab1.txt"); // Creating and opening the file
+    ofstream outputFile; // Creating an output file stream object
+     outputFile.open("Lab1.txt"); // Creating and opening the file
 
     
     // Writing the specified values to the file
-    outFile << "Bourne Identity\n"; 
-    outFile << "Star Wars Episode IV\n";
-    outFile << "The Hunger Games\n";
-    outFile << "Dead Pool\n";
-    outFile << "X-Men First Class\n";
-    outFile << "Star Wars Episode V\n";
-    outFile << "Get Out\n";
+    outputFile << "Bourne Identity\n"; 
+    outputFile << "Star Wars Episode IV\n";
+    outputFile << "The Hunger Games\n";
+    outputFile << "Dead Pool\n";
+    outputFile << "X-Men First Class\n";
+    outputFile << "Star Wars Episode V\n";
+    outputFile << "Get Out\n";
     
     // Closing the file
-    outFile.close();
+    outputFile.close();
 
     std::cout << "File Lab1.txt created and data written successfully " << std::endl;
 
