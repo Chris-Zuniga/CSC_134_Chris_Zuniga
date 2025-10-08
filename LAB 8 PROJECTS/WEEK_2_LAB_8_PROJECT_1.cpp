@@ -14,7 +14,7 @@ int main()
     ifstream inFile; // Create an input file stream object
     string names;
 
-    inFile.open("/Users/chriszuniga/GITHUB-CSC-134/CSC_134_Chris_Zuniga/LAB 8 PROJECTS/friends.txt"); // Open the file
+    inFile.open("/Users/chriszuniga/Downloads/friends.txt"); // Open the file
 
     
     // Read and print each line from the file
