@@ -1,0 +1,6 @@
+Sales for day 1: $40
+Sales for day 2: $600
+Sales for day 3: $300
+Sales for day 4: $500
+Sales for day 5: $1000
+Total Sales: $2440
