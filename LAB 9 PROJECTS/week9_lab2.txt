@@ -1,6 +1,9 @@
-Sales for day 1: $40
-Sales for day 2: $600
-Sales for day 3: $300
-Sales for day 4: $500
-Sales for day 5: $1000
-Total Sales: $2440
+Sales for day 1: $500.50
+Sales for day 2: $403.90
+Sales for day 3: $869.75
+Sales for day 4: $396.87
+Sales for day 5: $699.25
+Sales for day 6: $999.99
+===========================
+Total Sales: $3870.26
+===========================
