@@ -13,7 +13,7 @@ int main() {
 
     int y_values[16]; // Array to hold y values for x from 0 to 15
 
-    for (int X = 0; X <= 15; ++X)
+    for (int X = 0; X <= 15; ++X) // Filling the array with y_values
     {
         y_values[X] = 2 * X + 3; // Calculate y using the equation y = 2x + 3
     }
@@ -21,19 +21,22 @@ int main() {
     // Plotting the graph
     for (int Y = 15; Y >= 0; --Y)
     {
-        std::cout << Y << "|"; // Print y-axis label
+        std::cout << Y << "|"; // Printing the y-axis label
+
+        //Looping Each X-vaules, checking to see if the matches the y_values[X]
         for (int X = 0; X <=15; ++X)
         {
-            if (y_values[X] == Y)
+
+            if (y_values[X] == Y) 
             {
-                std::cout << " X"; //  
+                std::cout << " X"; // Printing "X" 
             }
             else
             {
-                std::cout << "  "; // 
+                std::cout << "  "; // Printing and empty space
             }
         }
-           std::cout << std::endl;
+           std::cout << std::endl; // Moving the next line from each y-row
 
     }
 
