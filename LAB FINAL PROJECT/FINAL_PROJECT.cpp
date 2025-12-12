@@ -4,61 +4,6 @@ Chris Cantor Zuniga
 December 8, 2025
 FINAL PROJECT C++ CODE
 
-
-Objective:
-
-Using basic mathematics, we can determine where an object will land when shot out of a cannon. 
-In this case, a human cannonball! When objects within a gravatation field are launched, thrown etc. 
-they follow a parabolic pattern(e.g. see image below). 
-This is known as a parabola and can easily be solved using the quadratic equation. 
-Using the equation below, determine the distance the human cannonball will travel when he hits the ground. 
-Assume all distances are in meters. 
-The quadratic equation generates two results, one of the results will be negative and you have to throw this away, as it is not meaningful. 
-When done, upload your C++ program and graph to Moodle.
-
-Quadratic Equation: 
-
-x = (-b ± √(b² - 4ac)) / 2a
-
-Default Values:
-
-let a = −0.01568
-
-let b = 1.00000
-
-let c = 1.5
-
-and make sure it can make a graph of the trajectory as well.
-
-for example:
-
-19 |                                                                   
-    |                                                                   
- 17 |                                 *                                 
-    |                          ******* *******                          
- 15 |                      ****               ****                      
-    |                    **                       **                    
- 13 |                  **                           **                  
-    |                **                               **                
- 11 |              **                                   **              
-    |             *                                       *             
-  9 |           **                                         **           
-    |          *                                             *          
-  7 |         *                                               *         
-    |       **                                                 *        
-  5 |      *                                                    **      
-    |     *                                                       *     
-  3 |    *                                                         *    
-    |   *                                                           *   
-  1 |  *                                                             *  
-    | *                                                               * 
-  0 | -----------------------------------------------------------------*
-     |    |    |    |    |    |    |    |    |    |    |    |    |    |
-         0    5   10   15   20   25   30   35   40   45   50   55   60   65
-
-
-
-
 */
 
 #include <iostream>
